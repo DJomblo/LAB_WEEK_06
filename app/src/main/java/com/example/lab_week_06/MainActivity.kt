@@ -45,14 +45,14 @@ class MainActivity : AppCompatActivity() {
                 CatModel(
                     Gender.Male,
                     CatBreed.BalineseJavanese,
-                    "Fred",
+                    "Maxell Nathanael",
                     "Silent and deadly",
                     "https://cdn2.thecatapi.com/images/7dj.jpg"
                 ),
                 CatModel(
                     Gender.Female,
                     CatBreed.ExoticShorthair,
-                    "Wilma",
+                    "Hanzel Oliver Wihandono",
                     "Cuddly assassin",
                     "https://cdn2.thecatapi.com/images/egv.jpg"
                 ),
@@ -62,9 +62,59 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.AmericanCurl,
+                    "Alif Nurfaiz",
+                    "Playful and affectionate",
+                    "https://cdn2.thecatapi.com/images/abl.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.BalineseJavanese,
+                    "Haikal",
+                    "Loves to nap in sunny spots",
+                    "https://cdn2.thecatapi.com/images/ai6.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.ExoticShorthair,
+                    "Luna",
+                    "Mischievous with a heart of gold",
+                    "https://cdn2.thecatapi.com/images/8ri.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.AmericanCurl,
+                    "Charlie",
+                    "Expert mouse catcher",
+                    "https://cdn2.thecatapi.com/images/ajt.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.BalineseJavanese,
+                    "Daisy",
+                    "Sweet and gentle",
+                    "https://cdn2.thecatapi.com/images/abx.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.ExoticShorthair,
+                    "Oliver",
+                    "Loves to chase lasers",
+                    "https://cdn2.thecatapi.com/images/hbn.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.AmericanCurl,
+                    "Molly",
+                    "Always curious about new things",
+                    "https://cdn2.thecatapi.com/images/3o3.jpg"
                 )
             )
         )
+
     }
 //This will create a pop up dialog when one of the items from the recycler view
     private fun showSelectionDialog(cat: CatModel) {
